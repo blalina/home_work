@@ -6,10 +6,213 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <header>
+<!-- HEADER CONTAINER -->
+        <header class="header">
+            <div class="container">
+                <div class="logo">
+                    <img src="assets/img/logo-nav@2x.png" alt="logo-angular">
+                </div>
+                <nav class="nav">
+                    <ul>
+                        <li><a class="nav-link" href="#">Features</a></li>
+                        <li><a class="nav-link" href="#">Docs</a></li>
+                        <li><a class="nav-link" href="#">Resources</a></li>
+                        <li><a class="nav-link" href="#">Events</a></li>
+                        <li><a class="nav-link" href="#">Blog</a></li>
+                    </ul>
+                    <input type="search" aria-label="search" placeholder="search">
+                    <div class="icon-sn">
+                        <a href="#" title="Twitter">icon-twitter</a>
+                        <a href="#" title="GitHub">icon-github</a>
+                        <a href="#" title="YouTube">icon-youtube</a>
+                    </div>
+                </nav>
+            </div>
             <img src="assets/img/logo-nav@2x.png">
         </header>
-        <main></main>
-        <footer></footer>
+<!-- MAIN CONTAINER -->
+        <main>
+<!-- BACKGROUND IMAGE -->
+            <div class="background-sky hero"></div>
+<!-- Intro section -->
+            <section id="intro"> 
+<!-- LOGO -->
+                <div class="hero-logo">
+                    <img src="assets/images/angular.svg" alt="logo-angular">
+                </div>
+<!-- CONTAINER -->
+                <div class="homepage-container">
+                    <div class="hero-headline">
+                        The modern web
+                        <br>
+                        developer's platform
+                    </div>
+                    <a class="button" href="#">Get Started</a>
+                </div>
+            </section>
+            <article>
+                <div class="home-rows">
+<!-- GROUP 1-->
+                    <div layout="row" class="home-row homepage-container">
+                        <div class="promo-img-container promo-1">
+                            <img src="assets/images/responsive-framework.svg" alt="responsive-framework">
+                        </div>
+                        <div class="text-container">
+                            <div class="text-headline">Develop Across All Platforms</div>
+                            <p class="text-body">Learn one way to build applications with Angular and reuse your code and abilities to build apps for any deployment target. For web, mobile web, native mobile and native desktop.</p>
+                        </div>
+                    </div>
+                    <hr>
+<!-- GROUP 2 -->
+                    <div layout="row" class="home-row homepage-container">
+                        <div class="text-container">
+                            <div class="text-headline">Speed & Performance</div>
+                            <p class="text-body">Achieve the maximum speed possible on the Web Platform today, and take it further, via Web Workers and server-side rendering.</p>
+                            <p class="text-body">Angular puts you in control over scalability. Meet huge data requirements by building data models on RxJS, Immutable.js or another push-model.</p>
+                        </div>
+                        <div class="promo-img-container promo-2">
+                            <div>
+                                <img src="assets/images/speed-performance.svg" alt="speed and performance">
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+<!-- GROUP 3 -->
+                    <div layout="row" class="home-row">
+                        <div class="promo-img-container promo-3">
+                            <div>
+                                <img src="assets/images/joyful-development.svg" alt="IDE example">
+                            </div>
+                        </div>
+                        <div class="text-container">
+                            <div class="text-block promo-3-desc">
+                                <div class="text-headline">Incredible Tooling</div>
+                                <p class="text-body">Build features quickly with simple, declarative templates. Extend the template language with your own components and use a wide array of existing components. Get immediate Angular-specific help and feedback with nearly every IDE and editor. All this comes together so you can focus on building amazing apps rather than trying to make the code work.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+<!-- GROUP 4 -->
+                    <div layout="row" class="home-row">
+                        <div class="text-container">
+                            <div class="text-block l-pad-top-2">
+                                <p class="text-body">From prototype through global deployment, Angular delivers the productivity and scalable infrastructure that supports Google's largest applications.</p>
+                            </div>
+                            <div class="promo-img-container promo-4">
+                                <div>
+                                    <img src="assets/images/loved-by-millions.svg" alt="angular on the map">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+<!-- CTA CARDS -->
+                    <div layout="row" class="home-row">
+                        <a href="#">
+                            <div class="card">
+                                <img src="assets/images/code-icon.svg" alt="Get Started with Angular">
+                                <div class="card-text-container">
+                                    <div class="text-headline">Try it now</div>
+                                    <p>Explore Angular's capabilities with a ready-made sample app. No setup required.</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+<!-- end of home rows -->
+            </article>
+        </main>
+<!-- FOOTER -->
+        <footer class="no-print">
+            <div class="footer-container">
+                <div class="grid-fluid">
+<!-- 1 BLOCK Resources -->
+                    <div class="footer-block ng-star-inserted">
+                        <h3>Resources</h3>
+                        <ul>
+                            <li class="ng-star-inserted">
+                                <a class="link" href="#">About</a>
+                            </li>
+                            <li class="ng-star-inserted">
+                                <a class="link" href="#">Resource Listing</a>
+                            </li>
+                            <li class="ng-star-inserted">
+                                <a class="link" href="#">Press Kit</a>
+                            </li>
+                            <li class="ng-star-inserted">
+                                <a class="link" href="#">Blog</a>
+                            </li>
+                            <li class="ng-star-inserted">
+                                <a class="link" href="#">Usage Analytics</a>
+                            </li>
+                        </ul>
+                    </div>
+ <!-- 2 BLOCK Help -->
+                    <div class="footer-block ng-star-inserted">
+                        <h3>Help</h3>
+                        <ul>
+                            <li class="ng-star-inserted">
+                                <a class="link" href="#">Stack Overflow</a>
+                            </li>
+                            <li class="ng-star-inserted">
+                                <a class="link" href="#">Join Discord</a>
+                            </li>
+                            <li class="ng-star-inserted">
+                                <a class="link" href="#">Gitter</a>
+                            </li>
+                            <li class="ng-star-inserted">
+                                <a class="link" href="#">Report Issues</a>
+                            </li>
+                            <li class="ng-star-inserted">
+                                <a class="link" href="#">Code of Conduct</a>
+                            </li>
+                        </ul>
+                    </div>
+<!-- 3 BLOCK Community -->
+                    <div class="footer-block ng-star-inserted">
+                        <h3>Community</h3>
+                        <ul>
+                            <li class="ng-star-inserted">
+                                <a class="link" href="#">Events</a>
+                            </li>
+                            <li class="ng-star-inserted">
+                                <a class="link" href="#">Meetups</a>
+                            </li>
+                            <li class="ng-star-inserted">
+                                <a class="link" href="#">Twitter</a>
+                            </li>
+                            <li class="ng-star-inserted">
+                                <a class="link" href="#">GitHub</a>
+                            </li>
+                            <li class="ng-star-inserted">
+                                <a class="link" href="#">Contribute</a>
+                            </li>
+                        </ul>
+                    </div>
+<!-- 4 BLOCK Languages -->
+                    <div class="footer-block ng-star-inserted">
+                        <h3>Languages</h3>
+                        <ul>
+                            <li class="ng-star-inserted">
+                                <a class="link" href="#">SEspañol</a>
+                            </li>
+                            <li class="ng-star-inserted">
+                                <a class="link" href="#">简体中文版</a>
+                            </li>
+                            <li class="ng-star-inserted">
+                                <a class="link" href="#">正體中文版</a>
+                            </li>
+                            <li class="ng-star-inserted">
+                                <a class="link" href="#">日本語版</a>
+                            </li>
+                            <li class="ng-star-inserted">
+                                <a class="link" href="#">한국어</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <p>Super-powered by Google ©2010-2021.</p>
+                <p>Code licensed under an MIT-style License. Documentation licensed under CC BY 4.0.</p>
+                <p>Version 12.0.3-local+sha.2513a533ed.</p>
+        </footer>
     </body>
 </html>
