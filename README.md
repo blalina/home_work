@@ -1,1 +1,1 @@
-# home_work
+Layout based on the example of the site https://angular.io/
