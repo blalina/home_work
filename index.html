@@ -81,26 +81,32 @@
             <article>
                 <div class="home-rows">
 <!-- GROUP 1-->
-                    <div layout="row" class="home-row homepage-container">
+                    <div layout="row" class="home-row">
                         <div class="promo-img-container promo-1">
-                            <img src="assets/images/responsive-framework.svg" alt="responsive-framework">
+                            <div>
+                                <img height="222" width="340" src="assets/images/responsive-framework.svg" alt="responsive-framework">
+                            </div>
                         </div>
                         <div class="text-container">
-                            <div class="text-headline">Develop Across All Platforms</div>
-                            <p class="text-body">Learn one way to build applications with Angular and reuse your code and abilities to build apps for any deployment target. For web, mobile web, native mobile and native desktop.</p>
+                            <div class="text-block">
+                                <div class="text-headline">Develop Across All Platforms</div>
+                                <p class="text-body">Learn one way to build applications with Angular and reuse your code and abilities to build apps for any deployment target. For web, mobile web, native mobile and native desktop.</p>
+                            </div>
                         </div>
                     </div>
                     <hr>
 <!-- GROUP 2 -->
-                    <div layout="row" class="home-row homepage-container">
+                    <div layout="row" class="home-row">
                         <div class="text-container">
-                            <div class="text-headline">Speed & Performance</div>
-                            <p class="text-body">Achieve the maximum speed possible on the Web Platform today, and take it further, via Web Workers and server-side rendering.</p>
-                            <p class="text-body">Angular puts you in control over scalability. Meet huge data requirements by building data models on RxJS, Immutable.js or another push-model.</p>
-                        </div>
+                            <div class="text-block promo-1">
+                                <div class="text-headline">Speed & Performance</div>
+                                <p class="text-body">Achieve the maximum speed possible on the Web Platform today, and take it further, via Web Workers and server-side rendering.</p>
+                                <p class="text-body">Angular puts you in control over scalability. Meet huge data requirements by building data models on RxJS, Immutable.js or another push-model.</p>
+                            </div>
+                            </div>
                         <div class="promo-img-container promo-2">
                             <div>
-                                <img src="assets/images/speed-performance.svg" alt="speed and performance">
+                                <img height="222" width="323" src="assets/images/speed-performance.svg" alt="speed and performance">
                             </div>
                         </div>
                     </div>
@@ -109,7 +115,7 @@
                     <div layout="row" class="home-row">
                         <div class="promo-img-container promo-3">
                             <div>
-                                <img src="assets/images/joyful-development.svg" alt="IDE example">
+                                <img height="251" width="400" src="assets/images/joyful-development.svg" alt="IDE example">
                             </div>
                         </div>
                         <div class="text-container">
@@ -124,20 +130,21 @@
                     <div layout="row" class="home-row">
                         <div class="text-container">
                             <div class="text-block l-pad-top-2">
+                                <div class="text-headline">Loved by Millions</div>
                                 <p class="text-body">From prototype through global deployment, Angular delivers the productivity and scalable infrastructure that supports Google's largest applications.</p>
                             </div>
+                        </div>
                             <div class="promo-img-container promo-4">
                                 <div>
-                                    <img src="assets/images/loved-by-millions.svg" alt="angular on the map">
+                                    <img height="228" width="455" src="assets/images/loved-by-millions.svg" alt="angular on the map">
                                 </div>
                             </div>
-                        </div>
                     </div>
 <!-- CTA CARDS -->
                     <div layout="row" class="home-row">
                         <a href="#">
                             <div class="card">
-                                <img src="assets/images/code-icon.svg" alt="Get Started with Angular">
+                                <img width="70" height="70" src="assets/images/code-icon.svg" alt="Get Started with Angular">
                                 <div class="card-text-container">
                                     <div class="text-headline">Try it now</div>
                                     <p>Explore Angular's capabilities with a ready-made sample app. No setup required.</p>
@@ -238,9 +245,11 @@
                         </ul>
                     </div>
                 </div>
-                <p>Super-powered by Google ©2010-2021.</p>
-                <p>Code licensed under an MIT-style License. Documentation licensed under CC BY 4.0.</p>
-                <p>Version 12.0.3-local+sha.2513a533ed.</p>
+                <div class="additional-info">
+                    <p>Super-powered by Google ©2010-2021.</p>
+                    <p>Code licensed under an MIT-style License. Documentation licensed under CC BY 4.0.</p>
+                    <p>Version 12.0.3-local+sha.2513a533ed.</p>
+                </div>
         </footer>
     </body>
 </html>
