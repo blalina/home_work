@@ -1,1 +1,3 @@
-Layout based on the example of the site https://angular.io/
+# Description:
+
+To learn HTML, CSS as an example was taken the site https://angular.io/
